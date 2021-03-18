@@ -4,3 +4,4 @@ docker run -it \
            --rm \
            -v $(pwd)/test:/app \
            data_analysis:2.0
+
