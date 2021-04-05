@@ -9,7 +9,7 @@ RUN apt-get update && \
   apt-get clean && \
   pip3 install --upgrade pip
 
-RUN pip3 install numpy
+RUN pip3 install numpy matplotlib jupyterlab
 
 
 CMD ["python3"]
